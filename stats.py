@@ -1,3 +1,5 @@
+import math
+
 def variance(data):
     """Returns the population variance of a list (array) of numbers in data.
 
@@ -37,4 +39,4 @@ def variance(data):
 
 def stdev(data):
     """The population standard deviation of a list of data values."""
-    return sqrt(variance(data))
+    return math.sqrt(variance(data))
